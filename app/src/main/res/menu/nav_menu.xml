@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--    <item-->
+<!--        android:id="@+id/nav_search"-->
+<!--        app:icon="@drawable/ic_search_black_24dp"-->
+<!--        app:showAsAction="always"-->
+<!--        app:actionViewClass="android.widget.SearchView"-->
+<!--        android:title="Search" />-->
+
+    <group>
+
+        <item
+            android:id="@+id/nav_movies"
+            android:icon="@drawable/ic_movies"
+            android:title="Movies"/>
+        <item
+            android:id="@+id/nav_tvshows"
+            android:icon="@drawable/ic_trailers"
+            android:title="TV Shows"/>
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings"/>
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            android:title="About"/>
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_feedback"
+            android:title="Feedback"/>
+    </group>
+
+</menu>
