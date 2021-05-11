@@ -25,7 +25,6 @@ class SearchAdapter(var mContext: Context, var searchList: List<SearchItem>) : R
             }
         }
     }
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SearchAdapter.MyViewHolder {
         val li = LayoutInflater.from(parent.context)
         val view: View = li.inflate(R.layout.search_card, parent, false)
